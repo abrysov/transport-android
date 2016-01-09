@@ -1,0 +1,13 @@
+{
+    "resources" : [
+    	{
+	      "guid": "id",
+	      "archive": false,
+	      "uri": "https://dl.dropboxusercontent.com/s/xv4as9d59ri0ulp/breguet.mp4?dl=1&token_hash=AAGh_AGkTnBfgZPsVVZRDL8ToXLr3EcQfzpvvXYLHijtzQ",
+	      "storageUri": "approot://TEXT/text.txt",
+	      "accessUri": "approot://TEXT/text.txt",
+	      "version": 0,
+		  "size": "179"
+	    }
+    ]
+}

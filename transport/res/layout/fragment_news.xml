@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <!--
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:layout_marginLeft="150dp"
+              android:layout_marginTop="30dp"
+              android:background="@color/news_bg_color"
+              android:text="@string/news"
+              android:textColor="@android:color/white"
+              android:textSize="70dp"/>
+    -->
+    <TextView
+        android:id="@+id/tv_news"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fontFamily="fonts/Proxima Nova Light.otf"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/ad_text_padding"
+        android:paddingRight="@dimen/ad_text_padding"
+        android:textColor="@color/ad_text_color"
+        android:textSize="@dimen/ad_text_size"
+        />
+
+    <FrameLayout
+        android:id="@+id/fragment_bus_stops_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bus_stops_bar_height" />
+
+</LinearLayout>

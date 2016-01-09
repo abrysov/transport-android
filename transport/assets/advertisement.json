@@ -1,0 +1,46 @@
+{
+  "ads": [
+    {
+      "type": "VIDEO",
+      "showDuration": 83050,
+      "id": 1,
+      "name": "content://com.sqiwy.transport.advertisement.assetsprovider/test_ad_0.mp4"
+    },
+    {
+      "type": "IMAGE",
+      "showDuration": 5000,
+      "id": 2,
+      "name": "content://com.sqiwy.transport.advertisement.assetsprovider/main2.jpg"
+    },
+    {
+      "type": "VIDEO",
+      "showDuration": 31570,
+      "id": 3,
+      "name": "content://com.sqiwy.transport.advertisement.assetsprovider/test_ad_2.mp4"
+    },
+    {
+      "type": "IMAGE",
+      "id": 4,
+      "showDuration": 5000,
+      "name": "content://com.sqiwy.transport.advertisement.assetsprovider/main4.jpg"
+    },
+    {
+      "type": "TEXT",
+      "showDuration": 5000,
+      "id": 6,
+      "name": "content://com.sqiwy.transport.advertisement.assetsprovider/test_ad_5.jpeg"
+    },
+    {
+      "type": "VIDEO",
+      "showDuration": 44970,
+      "id": 7,
+      "name": "content://com.sqiwy.transport.advertisement.assetsprovider/Sochi_Weather_station.mp4"
+    },
+    {
+      "type": "VIDEO",
+      "showDuration": 45000,
+      "id": 8,
+      "name": "content://com.sqiwy.transport.advertisement.assetsprovider/4G.mp4"
+    }   
+  ]
+}

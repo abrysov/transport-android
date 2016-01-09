@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/white"
+              xmlns:autofit="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="20dp"
+            android:orientation="horizontal">
+
+        <com.sqiwy.transport.ui.view.AutoResizeTextView
+                android:id="@+id/horoscope_tv_text"
+                android:layout_width="0dp" android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="55dp"
+                android:gravity="center"
+                android:textColor="@color/horoscopes_bg_color"/>
+
+
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <ImageView android:id="@+id/horoscope_iv_pic"
+                       android:layout_width="700dp" android:layout_height="0dp"
+                       android:layout_weight="1"
+                       android:layout_margin="50dp"
+                       android:scaleType="centerCrop"
+                    />
+
+            <TextView android:id="@+id/horoscope_tv_sign_name"
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:background="@color/horoscopes_bg_sign_name"
+                    android:textSize="50dp"
+                    android:textColor="@color/horoscopes_bg_color"
+                    />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <FrameLayout
+            android:id="@+id/fragment_bus_stops_bar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bus_stops_bar_height" />
+
+</LinearLayout>

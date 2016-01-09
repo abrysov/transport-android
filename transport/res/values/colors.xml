@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Action bar colors -->
+    <color name="action_bar_background">#eb223242</color>
+    <color name="action_bar_text_primary">#fff</color>
+    <color name="action_bar_text_secondary">#a5fff1</color>
+    <color name="action_bar_delimiter">#475868</color>
+
+    <color name="road_color">#cd0925b7</color>
+    <color name="active_road_color">#cdff5622</color>
+    <color name="bus_stops_bar_background">#f2f5f8</color>
+    <color name="bus_stop_text_color">#223242</color>
+    <color name="next_bus_stop_text_color">#ff5622</color>
+
+    <!-- Ad text colors -->
+	<color name="ad_text_color">#334251</color>
+
+    <!-- NEWS text colors -->
+    <color name="news_bg_color">#38B7FF</color>
+
+    <!-- Courses text colors -->
+    <color name="courses_bg_color">#324251</color>
+
+    <!-- Horoscopes text colors -->
+    <color name="horoscopes_bg_color">#324251</color>
+    <color name="horoscopes_bg_sign_name">#38B7FF</color>
+
+</resources>

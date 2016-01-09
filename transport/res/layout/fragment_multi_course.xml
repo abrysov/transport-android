@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/white">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="0dp"
+            android:layout_weight="1">
+
+        <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                      android:layout_weight="1"
+                      android:layout_marginLeft="100dp"
+                      android:layout_marginTop="80dp"
+                      android:orientation="vertical">
+
+            <ImageView android:layout_width="392dp" android:layout_height="140dp"
+                       android:src="@drawable/ic_baks_01"/>
+
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:layout_marginTop="70dp"
+                          android:orientation="horizontal">
+
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:text="@string/buy"
+                          android:textSize="@dimen/multi_courses_text_size"
+                          android:textColor="@color/courses_bg_color"/>
+
+                <TextView android:id="@+id/multi_currency_buy_baks"
+                          android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:layout_marginLeft="20dp"
+                          android:text=""
+                          android:textSize="@dimen/multi_courses_text_size"
+                          android:textColor="@color/courses_bg_color"/>
+
+            </LinearLayout>
+
+            <View android:layout_width="match_parent" android:layout_height="4dp"
+                  android:layout_marginRight="70dp"
+                  android:background="#e1e5e8"/>
+
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:layout_marginTop="20dp"
+                          android:orientation="horizontal">
+
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:text="@string/sell"
+                          android:textSize="@dimen/multi_courses_text_size"
+                          android:textColor="@color/courses_bg_color"/>
+
+                <TextView android:id="@+id/multi_currency_sell_baks"
+                          android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:layout_marginLeft="20dp"
+                          android:text=""
+                          android:textSize="@dimen/multi_courses_text_size"
+                          android:textColor="@color/courses_bg_color"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+                      android:layout_weight="1"
+                      android:layout_marginTop="80dp"
+                      android:orientation="vertical">
+
+            <ImageView android:layout_width="290dp" android:layout_height="140dp"
+                       android:src="@drawable/ic_euro_01"/>
+
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:layout_marginTop="70dp"
+                          android:orientation="horizontal">
+
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:text="@string/buy"
+                          android:textSize="@dimen/multi_courses_text_size"
+                          android:textColor="@color/courses_bg_color"/>
+
+                <TextView android:id="@+id/multi_currency_buy_euro"
+                          android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:layout_marginLeft="20dp"
+                          android:text=""
+                          android:textSize="@dimen/multi_courses_text_size"
+                          android:textColor="@color/courses_bg_color"/>
+
+            </LinearLayout>
+
+            <View android:layout_width="match_parent" android:layout_height="4dp"
+                  android:layout_marginRight="70dp"
+                  android:background="#e1e5e8"/>
+
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:layout_marginTop="20dp"
+                          android:orientation="horizontal">
+
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:text="@string/sell"
+                          android:textSize="@dimen/multi_courses_text_size"
+                          android:textColor="@color/courses_bg_color"/>
+
+                <TextView android:id="@+id/multi_currency_sell_euro"
+                          android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:layout_marginLeft="20dp"
+                          android:text=""
+                          android:textSize="@dimen/multi_courses_text_size"
+                          android:textColor="@color/courses_bg_color"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+            android:id="@+id/fragment_bus_stops_bar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bus_stops_bar_height" />
+
+</LinearLayout>

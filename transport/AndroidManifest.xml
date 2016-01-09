@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sqiwy.transport"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="19" />
+
+    <permission
+        android:name="com.sqiwy.controller.permission.SYSTEM_CONTROLLER_SERVICE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.sqiwy.controller.permission.SYSTEM_CONTROLLER_SERVICE" />
+
+    <application
+        android:name=".TransportApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/Theme.Transport"
+        android:hardwareAccelerated="true">
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".ui.StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.MainActivity"
+            android:screenOrientation="sensorLandscape" />
+
+        <activity
+            android:name=".ui.ConfigurationActivity"
+            android:screenOrientation="sensorLandscape" />
+
+        <service
+            android:name="com.sqiwy.weather.WeatherService"
+            android:exported="false" />
+        
+        <service
+            android:name="com.sqiwy.transport.advertisement.AdvertisementLoaderService"
+            android:exported="false" />
+        
+        <receiver
+            android:name="com.sqiwy.transport.advertisement.AdvertisementLoaderService$ScheduledLoadReceiver"
+            android:exported="false"/>
+
+        <receiver
+            android:name="com.sqiwy.transport.advertisement.AdvertisementLoaderReceiver">
+            <intent-filter>
+                <action android:name="com.sqiwy.intent.action.DOWNLOAD_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        
+        <service
+            android:name="com.sqiwy.transport.mocklocations.SendMockLocationService"
+            android:enabled="true"
+            android:exported="false"
+            android:icon="@drawable/ic_launcher" >
+        </service>
+        
+        <provider
+            android:name="com.sqiwy.transport.advertisement.AssetsProvider"
+            android:authorities="com.sqiwy.transport.advertisement.assetsprovider"
+            android:exported="false" />
+
+        <provider
+            android:name="com.sqiwy.transport.data.TransportProvider"
+            android:authorities="com.sqiwy.transport.test.data.transportprovider"
+            android:exported="false" />
+
+        <!-- Downloader -->
+        
+        <provider
+            android:name="com.sqiwy.ljmenu.dmanager.DownloadManagerProvider"
+            android:authorities="com.sqiwy.ljmenu.dmanager.DownloadManagerProvider"
+            android:exported="false"
+            android:multiprocess="true" />
+
+        <receiver android:name="com.sqiwy.ljmenu.dmanager.DownloadManagerReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.sqiwy.ljmenu.dmanager.DownloadManagerService"
+            android:exported="false" />
+        
+        <!-- /// -->
+        
+    </application>
+</manifest>

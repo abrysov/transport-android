@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true">
+
+    <fragment
+        android:id="@+id/fragment_map"
+        android:name="com.sqiwy.transport.ui.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_map"/>
+
+    <FrameLayout
+            android:id="@+id/fragment_ads"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@+id/fragment_ads"/>
+
+    <fragment
+        android:id="@+id/fragment_action_bar"
+        android:name="com.sqiwy.transport.ui.ActionBarFragment"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/action_bar_height"
+        tools:layout="@layout/fragment_action_bar"/>
+
+    <FrameLayout
+        android:id="@+id/fragment_news"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/fragment_action_bar" />
+
+    <FrameLayout
+            android:id="@+id/fragment_horoscopes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/fragment_action_bar" />
+
+    <FrameLayout
+            android:id="@+id/fragment_single_course"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/fragment_action_bar" />
+
+    <FrameLayout
+            android:id="@+id/fragment_multi_course"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/fragment_action_bar" />
+
+    <ProgressBar
+        android:id="@+id/pb_bus_stops"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="11dp"
+        android:layout_below="@+id/fragment_action_bar"
+        android:progressDrawable="@drawable/bus_stops_progress_bar" />
+
+</RelativeLayout>

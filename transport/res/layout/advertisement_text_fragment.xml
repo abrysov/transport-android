@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/ad_text_padding"
+    android:paddingRight="@dimen/ad_text_padding">
+
+    <TextView
+        android:id="@+id/ad_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/ad_text_color"
+        android:textSize="@dimen/ad_text_size"
+        android:layout_gravity="center"
+        android:text="@string/mess_not_set"
+        android:fontFamily="fonts/Proxima Nova Light.otf" />
+
+</FrameLayout>

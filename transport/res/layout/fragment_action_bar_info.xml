@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="@dimen/action_bar_common_padding" >
+
+    <ImageView
+        android:id="@+id/action_bar_info_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:paddingRight="@dimen/action_bar_common_padding"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_weather_snow" />
+
+    <TextView
+        android:id="@+id/action_bar_info_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="2"
+        android:text="@string/mess_not_set"
+        android:textColor="@color/action_bar_text_primary"
+        android:textSize="@dimen/action_bar_text_secondary"
+        android:fontFamily="fonts/Proxima Nova Semibold.otf" />
+
+</LinearLayout>

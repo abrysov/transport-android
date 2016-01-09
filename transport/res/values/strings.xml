@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Транспорт</string>
+
+    <string name="title_location_settings">Определение местоположения отключено</string>
+
+    <string name="message_location_settings">Приложение не может определить текущее местоположение. Проверьте настройки.</string>
+
+    <string name="btn_settings">Настройки</string>
+    <string name="btn_exit">Выход</string>
+    <string name="btn_register">Зарегистрировать</string>
+
+    <string name="message_wait">Пожалуйста, подождите…</string>
+
+    <string name="toast_error">Произошла ошибка</string>
+    <string name="toast_register_success">Регистрация успешна</string>
+
+    <string name="pref_server_address_title">Адрес сервера</string>
+    <string name="pref_device_number_title">Номер устройства</string>
+    <string name="pref_demo_mode_title">Запуск в демо режиме</string>
+    <string name="pref_map_only_title">Тестирование карты</string>
+    <string name="pref_pause_title">Пауза</string>
+    <string name="pref_send_interval_title">Интервал отправки</string>
+
+    <string name="route_not_set">Движение вне маршрута</string>
+    <string name="mess_not_set">Нет сообщений</string>
+
+    <string name="min">мин</string>
+    <string name="news">Новости</string>
+    
+    <string name="notification_title_test_start">Mock Location Testing</string>
+    <string name="notification_content_test_start">Starting test</string>
+    <string name="notification_content_test_running">Test running</string>
+
+    <string name="buy">Покупка:</string>
+    <string name="sell">Продажа:</string>
+
+</resources>

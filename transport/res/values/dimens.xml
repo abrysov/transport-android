@@ -1,0 +1,33 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Action bar dimensions -->
+    <dimen name="action_bar_height">185dp</dimen>
+    <dimen name="action_bar_text_primary">150dp</dimen> <!--170-->
+    <dimen name="action_bar_text_secondary">50dp</dimen> <!--60-->
+    <dimen name="action_bar_common_padding">35dp</dimen>
+    <dimen name="action_bar_divider_padding">50dp</dimen>
+    <dimen name="action_bar_right_part_width">700dp</dimen>
+    <dimen name="action_bar_delimiter_width">3dp</dimen>
+    
+    <!-- Action bar dimensions for testing on a small screen -->
+    <!-- <dimen name="action_bar_height">85dp</dimen>
+    <dimen name="action_bar_text_primary">40dp</dimen>
+    <dimen name="action_bar_text_secondary">16dp</dimen>
+    <dimen name="action_bar_common_padding">4dp</dimen> -->
+    
+    <dimen name="bus_stops_bar_height">185dp</dimen>
+
+    <!-- Ad text dimens -->
+    <dimen name="ad_text_padding">150dp</dimen>
+    <dimen name="ad_text_size">120dp</dimen>
+
+    <!-- Multi courses text dimens -->
+    <dimen name="multi_courses_text_size">120dp</dimen>
+
+    <!-- Single courses text dimens -->
+    <dimen name="single_courses_text_size">120dp</dimen>
+
+</resources>

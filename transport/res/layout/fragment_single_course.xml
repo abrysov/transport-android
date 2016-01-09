@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/white">
+
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="160dp"
+            android:paddingTop="60dp"
+            android:orientation="horizontal">
+
+        <ImageView android:layout_width="400dp" android:layout_height="800dp"
+                android:src="@drawable/ic_baks_02"
+                android:layout_gravity="center"/>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                      android:paddingLeft="160dp"
+                      android:paddingRight="160dp"
+                      android:orientation="vertical">
+
+            <TextView android:id="@+id/single_course_tv_buy"
+                    android:layout_width="match_parent" android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/buy"
+                    android:textSize="@dimen/single_courses_text_size"
+                    android:gravity="center_vertical"/>
+
+            <View android:layout_width="match_parent" android:layout_height="5dp"
+                    android:background="#e1e5e8"/>
+
+            <TextView android:id="@+id/single_course_tv_sell"
+                    android:layout_width="match_parent" android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/sell"
+                    android:textSize="@dimen/single_courses_text_size"
+                    android:gravity="center_vertical"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+            android:id="@+id/fragment_bus_stops_bar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bus_stops_bar_height" />
+
+</LinearLayout>

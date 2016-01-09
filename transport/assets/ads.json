@@ -1,0 +1,218 @@
+{
+  "ads": [
+    {
+      "status": "inactive",
+      "content": {
+        "guid": "content_guid1",
+        "url": "https://dl.dropboxusercontent.com/s/xv4as9d59ri0ulp/breguet.mp4?dl=1&token_hash=AAGh_AGkTnBfgZPsVVZRDL8ToXLr3EcQfzpvvXYLHijtzQ",
+        "version": 2
+      },
+      "advertiser_name": "ОАО «Газпром»",
+      "name": "test",
+      "end_date": "28-03-2014",
+      "total_shows": 5000,
+      "advertiser_guid": "advertiser_guid1",
+      "content_type": "VIDEO",
+      "max_hour_shows": 1,
+      "duration": 3000,
+      "guid": "ad_guid1",
+      "start_date": "28-02-2014",
+      "shows": 50,
+      "trigger": "ANY | GEO",
+      "version": 10
+    },
+    {
+      "status": "ready",
+      "content": {
+        "guid": "content_guid2",
+        "url": "http://37.48.73.102/resources/downloads/zara_aw13_man_638x416.mp4",
+        "version": 0
+      },
+      "advertiser_name": "ОАО «Газпром»",
+      "name": "zara_aw13_man_638x416.mp4",
+      "end_date": "28-03-2014",
+      "total_shows": 5000,
+      "advertiser_guid": "advertiser_guid2",
+      "content_type": "VIDEO",
+      "max_hour_shows": 1,
+      "duration": 99000,
+      "guid": "ad_guid2",
+      "start_date": "28-02-2014",
+      "shows": 50,
+      "trigger": "ANY | GEO",
+      "points": [
+        {
+          "lat": "55.521584",
+          "lon": "37.512554",
+          "radius": "20"
+        }
+      ],
+      "version": 9
+    },
+    {
+      "status": "ready",
+      "content": {
+        "guid": "content_guid3",
+        "url": "http://37.48.73.102/resources/downloads/zara_aw13_woman_638x416.mp4",
+        "version": 0
+      },
+      "advertiser_name": "ОАО «Газпром»",
+      "name": "zara_aw13_woman_638x416.mp4",
+      "end_date": "28-03-2014",
+      "total_shows": 5000,
+      "advertiser_guid": "advertiser_guid3",
+      "content_type": "VIDEO",
+      "max_hour_shows": 1,
+      "duration": 76000,
+      "guid": "ad_guid3",
+      "start_date": "28-02-2014",
+      "shows": 50,
+      "trigger": "ANY | GEO",
+      "points": [
+        {
+          "lat": "55.521584",
+          "lon": "37.512554",
+          "radius": "20"
+        },
+        {
+          "lat": "55.519738",
+          "lon": "37.572464",
+          "radius": "30"
+        }
+      ],
+      "version": 8
+    },
+    {
+      "status": "ready",
+      "content": {
+        "guid": "content_guid4",
+        "url": "http://37.48.73.102/resources/downloads/kia_k900_morpheus_638x416.mp4",
+        "version": 0
+      },
+      "advertiser_name": "ОАО «Газпром»",
+      "name": "kia_k900_morpheus_638x416.mp4",
+      "end_date": "28-03-2014",
+      "total_shows": 5000,
+      "advertiser_guid": "advertiser_guid4",
+      "content_type": "VIDEO",
+      "max_hour_shows": 1,
+      "duration": 92000,
+      "guid": "ad_guid4",
+      "start_date": "28-02-2014",
+      "shows": 50,
+      "trigger": "ANY | GEO",
+      "points": [
+        {
+          "lat": "55.521584",
+          "lon": "37.512554",
+          "radius": "20"
+        },
+        {
+          "lat": "55.519738",
+          "lon": "37.572464",
+          "radius": "30"
+        }
+      ],
+      "version": 8
+    },
+    {
+      "status": "ready",
+      "content": {
+        "guid": "content_guid5",
+        "url": "http://37.48.73.102/resources/downloads/zara_aw13_man_638x416_1.mp4",
+        "version": 0
+      },
+      "advertiser_name": "ОАО «Газпром»",
+      "name": "zara_aw13_man_638x416_1.mp4",
+      "end_date": "28-03-2014",
+      "total_shows": 5000,
+      "advertiser_guid": "advertiser_guid5",
+      "content_type": "VIDEO",
+      "max_hour_shows": 1,
+      "duration": 99000,
+      "guid": "ad_guid5",
+      "start_date": "28-02-2014",
+      "shows": 50,
+      "trigger": "ANY | GEO",
+      "points": [
+        {
+          "lat": "55.521584",
+          "lon": "37.512554",
+          "radius": "20"
+        },
+        {
+          "lat": "55.519738",
+          "lon": "37.572464",
+          "radius": "30"
+        }
+      ],
+      "version": 8
+    },
+    {
+      "status": "ready",
+      "content": {
+        "guid": "content_guid6",
+        "url": "http://37.48.73.102/resources/downloads/zara_aw13_woman_638x416_1.mp4",
+        "version": 0
+      },
+      "advertiser_name": "ОАО «Газпром»",
+      "name": "zara_aw13_woman_638x416_1.mp4",
+      "end_date": "28-03-2014",
+      "total_shows": 5000,
+      "advertiser_guid": "advertiser_guid6",
+      "content_type": "VIDEO",
+      "max_hour_shows": 1,
+      "duration": 66000,
+      "guid": "ad_guid6",
+      "start_date": "28-02-2014",
+      "shows": 50,
+      "trigger": "ANY | GEO",
+      "points": [
+        {
+          "lat": "55.521584",
+          "lon": "37.512554",
+          "radius": "20"
+        },
+        {
+          "lat": "55.519738",
+          "lon": "37.572464",
+          "radius": "30"
+        }
+      ],
+      "version": 8
+    },
+    {
+      "status": "ready",
+      "content": {
+        "guid": "content_guid7",
+        "url": "http://37.48.73.102/resources/downloads/kia_k900_morpheus_638x416_1.mp4",
+        "version": 0
+      },
+      "advertiser_name": "ОАО «Газпром»",
+      "name": "kia_k900_morpheus_638x416_1.mp4",
+      "end_date": "28-03-2014",
+      "total_shows": 5000,
+      "advertiser_guid": "advertiser_guid7",
+      "content_type": "VIDEO",
+      "max_hour_shows": 1,
+      "duration": 92000,
+      "guid": "ad_guid7",
+      "start_date": "28-02-2014",
+      "shows": 50,
+      "trigger": "ANY | GEO",
+      "points": [
+        {
+          "lat": "55.521584",
+          "lon": "37.512554",
+          "radius": "20"
+        },
+        {
+          "lat": "55.519738",
+          "lon": "37.572464",
+          "radius": "30"
+        }
+      ],
+      "version": 8
+    }
+  ]
+}

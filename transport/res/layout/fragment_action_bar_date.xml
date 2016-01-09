@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="@dimen/action_bar_common_padding" >
+
+    <!-- 
+    	According to date format patterns we should use
+    	format = H:mm
+    	However it seems it's a bug on some of systems (which doesn't replace "H" with hours)
+    	and working soluion	for us is "k:mm".
+     -->
+    <TextClock
+        android:id="@+id/action_bar_info_time"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:format12Hour="k:mm"
+        android:format24Hour="k:mm"
+        android:gravity="center"
+        android:lines="1"
+        android:paddingRight="@dimen/action_bar_common_padding"
+        android:textColor="@color/action_bar_text_primary"
+        android:textSize="@dimen/action_bar_text_primary"
+        android:fontFamily="fonts/Proxima Nova Extra Condensed Regular.otf" />
+
+    <TextClock
+        android:id="@+id/action_bar_info_date"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:format12Hour="EEEE,\nd MMMM"
+        android:format24Hour="EEEE,\nd MMMM"
+        android:gravity="center_vertical"
+        android:maxLines="2"
+        android:textColor="@color/action_bar_text_primary"
+        android:textSize="@dimen/action_bar_text_secondary"
+        android:fontFamily="fonts/Proxima Nova Semibold.otf" />
+
+</LinearLayout>

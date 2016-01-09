@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.sqiwy.transport.ui.view.TransitionAnimationFrameLayout
+        android:id="@+id/ad_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/black" >
+
+        <FrameLayout
+            android:id="@+id/ad_image_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="Ad image fragment" />
+
+        <FrameLayout
+            android:id="@+id/ad_video_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="Ad video fragment" />
+        
+        <FrameLayout
+            android:id="@+id/ad_text_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="Ad text fragment" />
+        
+    </com.sqiwy.transport.ui.view.TransitionAnimationFrameLayout>
+
+</LinearLayout>

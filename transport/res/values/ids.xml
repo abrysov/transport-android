@@ -1,0 +1,4 @@
+<resources>
+
+    <item name="text_view_animator_set" type="id"/>
+</resources>

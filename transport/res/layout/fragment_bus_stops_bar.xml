@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bus_stops_bar_height"
+    android:background="@color/bus_stops_bar_background"
+    tools:ignore="ContentDescription">
+
+    <LinearLayout
+        android:id="@+id/layout_bus_stops"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <com.sqiwy.transport.ui.view.BusStopLayout
+            android:id="@+id/bus_stop_layout_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <com.sqiwy.transport.ui.view.BusStopLayout
+            android:id="@+id/bus_stop_layout_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <com.sqiwy.transport.ui.view.BusStopLayout
+            android:id="@+id/bus_stop_layout_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <com.sqiwy.transport.ui.view.BusStopLayout
+            android:id="@+id/bus_stop_layout_4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_bus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="13dp"
+        android:layout_marginLeft="300dp"
+        android:src="@drawable/ic_big_bus" />
+
+</FrameLayout>

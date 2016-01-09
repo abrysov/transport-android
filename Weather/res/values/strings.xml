@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Weather</string>
+    <string name="no_weather_data">No weather data available</string>
+
+    <string-array name="weather_conditions">
+        <item>Торнадо</item>
+        <item>Тропический шторм</item>
+        <item>Ураган</item>
+        <item>Сильные грозы</item>
+        <item>Грозы</item>
+        <item>Смешанный дождь и снег</item>
+        <item>Смешанный дождь и мокрый снег</item>
+        <item>Смешанный снег и мокрый снег</item>
+        <item>Морось</item>
+        <item>Дождь</item>
+        <item>Ледяной дождь</item>
+        <item>Дождь</item>
+        <item>Дождь</item>
+        <item>Снегопад</item>
+        <item>Местами снегопад</item>
+        <item>Метели</item>
+        <item>Снег</item>
+        <item>Град</item>
+        <item>Мокрый снег</item>
+        <item>Пыль</item>
+        <item>Туманно</item>
+        <item>Туманно</item>
+        <item>Туманно</item>
+        <item>Сильный ветер</item>
+        <item>Ветрено</item>
+        <item>Холодно</item>
+        <item>Облачно</item>
+        <item>Облачно (ночь)</item>
+        <item>Облачно (день)</item>
+        <item>Ппеременная облачность (ночь)</item>
+        <item>Переменная облачность (день)</item>
+        <item>Ясно ( ночь )</item>
+        <item>Солнечно</item>
+        <item>Ясно (ночь)</item>
+        <item>Ясно (день)</item>
+        <item>Смешанный дождь и град</item>
+        <item>Жарко</item>
+        <item>Изолированные грозы</item>
+        <item>Местами грозы</item>
+        <item>Местами грозы</item>
+        <item>Дожди</item>
+        <item>Сильный снег</item>
+        <item>Местами снегопады</item>
+        <item>Сильный снег</item>
+        <item>Переменная облачность</item>
+        <item>Ливни</item>
+        <item>Местами снегопад</item>
+        <item>Изолированные ливни</item>
+    </string-array>
+
+    <!--
+    <string-array name="weather_conditions">
+        <item>tornado</item>
+		<item>tropical storm</item>
+		<item>hurricane</item>
+		<item>severe thunderstorms</item>
+		<item>thunderstorms</item>
+		<item>mixed rain and snow</item>
+		<item>mixed rain and sleet</item>
+		<item>mixed snow and sleet</item>
+		<item>freezing drizzle</item>
+		<item>drizzle</item>
+		<item>freezing rain</item>
+		<item>showers</item>
+		<item>showers</item>
+		<item>snow flurries</item>
+		<item>light snow showers</item>
+		<item>blowing snow</item>
+		<item>snow</item>
+		<item>hail</item>
+		<item>sleet</item>
+		<item>dust</item>
+		<item>foggy</item>
+		<item>haze</item>
+		<item>smoky</item>
+		<item>blustery</item>
+		<item>windy</item>
+		<item>cold</item>
+		<item>cloudy</item>
+		<item>mostly cloudy (night)</item>
+		<item>mostly cloudy (day)</item>
+		<item>partly cloudy (night)</item>
+		<item>partly cloudy (day)</item>
+		<item>clear (night)</item>
+		<item>sunny</item>
+		<item>fair (night)</item>
+		<item>fair (day)</item>
+		<item>mixed rain and hail</item>
+		<item>hot</item>
+		<item>isolated thunderstorms</item>
+		<item>scattered thunderstorms</item>
+		<item>scattered thunderstorms</item>
+		<item>scattered showers</item>
+		<item>heavy snow</item>
+		<item>scattered snow showers</item>
+		<item>heavy snow</item>
+		<item>partly cloudy</item>
+		<item>thundershowers</item>
+		<item>snow showers</item>
+		<item>isolated thundershowers</item>
+    </string-array>
+    -->
+
+</resources>
